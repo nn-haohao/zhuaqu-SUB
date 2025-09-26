@@ -13,7 +13,8 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-https://cfxr.eu.org/getSub
+https://github.com/chengaopan/AutoMergePublicNodes/blob/master/list_raw.txt
+https://github.com/mahdibland/V2RayAggregator/blob/master/Eternity.txt
 `;
 
 let urls = [];
@@ -825,4 +826,5 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
 			headers: { "Content-Type": "text/plain;charset=utf-8" }
 		});
 	}
+
 }
