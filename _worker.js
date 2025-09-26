@@ -15,6 +15,7 @@ let timestamp = 4102329600000;//2099-12-31
 let MainData = `
 https://github.com/chengaopan/AutoMergePublicNodes/blob/master/list_raw.txt
 https://github.com/mahdibland/V2RayAggregator/blob/master/Eternity.txt
+https://wang.fhtd.dpdns.org/sub/e8edde93-74a5-4c0a-9066-15b7748294b7?format=clash
 `;
 
 let urls = [];
@@ -828,5 +829,6 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
 	}
 
 }
+
 
 
